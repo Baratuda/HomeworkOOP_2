@@ -1,10 +1,10 @@
 package Market;
 
 public class Order {
-   String nameOrder;
-   String descriptionOrder;
-   User orderOwner;
-   int indexOrder;
+   private String nameOrder;
+   private String descriptionOrder;
+   private User orderOwner;
+   private int indexOrder;
 
    public Order(String nameOrder, String descriptionOrder, User orderOwner, int indexOrder) {
       this.nameOrder = nameOrder;
