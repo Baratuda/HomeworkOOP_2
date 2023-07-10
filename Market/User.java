@@ -1,10 +1,10 @@
 package Market;
 
 public class User {
-   String firstName;
-   String secondName;
-   String phoneNumber;
-   int age;
+private  String firstName;
+private  String secondName;
+private  String phoneNumber;
+private  int age;
 
 public User(String firstName, String secondName, String phoneNumber, int age) {
       this.firstName = firstName;
